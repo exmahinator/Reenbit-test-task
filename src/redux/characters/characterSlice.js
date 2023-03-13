@@ -53,6 +53,7 @@ const sliceCharacters = createSlice({
       state.characters.error = null;
       state.characters.info = action.payload.info;
       state.characters.items = action.payload.results;
+      // state.characters.items = [...state.characters.items, ...action.payload.results];
     },
     [fetchAllCharacters.rejected]: handleRejected,
     [fetchCharacterById.pending]: handlePendingSingle,
