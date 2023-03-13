@@ -15,8 +15,8 @@ function DetailsPage() {
       <div className="details__container">
         <div className="details__imgContainer">
           <picture>
-            <source srcset={TestImageDesktop} media="(min-width: 1024px)"/>
-            <source srcset={TestImageMobile} media="(min-width: 300px)"/>
+            <source srcSet={TestImageDesktop} media="(min-width: 1024px)"/>
+            <source srcSet={TestImageMobile} media="(min-width: 300px)"/>
             <img src={TestImageMobile} alt="Requested hero"/>
           </picture>
         </div>
